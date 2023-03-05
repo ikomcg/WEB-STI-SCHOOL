@@ -98,7 +98,13 @@ div.btn_form button:first-child {
 div.btn_form button:last-child {
     background-color: gray;
 }
-
+div.thanks_card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
 div.thanks_card button{
     margin: 10px 0;
     padding: 10px 50px;
