@@ -35,6 +35,8 @@ body > div{
     overflow: hidden;
 
     padding: 20px;
+
+    width: 30%;
 }
 body h1 {
     margin-bottom: 10px;
@@ -76,6 +78,9 @@ div textarea{
     border-radius: 10px;
 
     padding: 5px 10px;
+
+    width: 70%;
+    height: 200px;
 }
 div.btn_form button {
     cursor: pointer;
@@ -97,7 +102,7 @@ div.btn_form button:last-child {
 div.thanks_card button{
     margin: 10px 0;
     padding: 10px 50px;
-    
+
     background-color: #01579B;
     border: none;
     outline: none;
