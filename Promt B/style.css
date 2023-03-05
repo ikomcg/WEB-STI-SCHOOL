@@ -93,3 +93,21 @@ div.btn_form button:first-child {
 div.btn_form button:last-child {
     background-color: gray;
 }
+
+div.thanks_card button{
+    margin: 10px 0;
+    padding: 10px 50px;
+    
+    background-color: #01579B;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+div.thanks_card button a {
+    font-size: 18px;
+    color: #ffffffff;
+    text-decoration: none;
+
+    
+
+}
