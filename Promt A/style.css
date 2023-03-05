@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family:Arial;
+    background-color: #ffffffff;
+}
+header{
+    padding: 15px 10px ;
+    background-color: yellow;
+    color: #01579B;
+    
+}
+header h1 {
+    font-size: 26px;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../For_Assignment/Thumbnail.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h2 {
+    font-size: 25px;
+    color: #01579B;
+    text-align: center;
+
+    background-color: yellow;
+    padding: 20px 10px;
+
+
+}
+main > div {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #ffffffff;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    width: 30%;
+}
+main form {
+    width: 100%;
+    padding: 0 10px;
+    margin: 20px 0;
+    
+}
+main form  div.text_input{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+main form label {
+    font-size: 16px;
+    color: #01579B;
+
+}
+main form .text_input input {
+    margin-bottom: 10px;
+    padding: 5px 0;
+
+    border: none;
+    border-bottom: 1px solid #01579B;
+    outline: none;
+    
+}
+form .radio_buttons{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    margin: 10px 0;
+
+}
+form .form_button{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0;
+}
+
+form .form_button button {
+    cursor: pointer;
+
+    color: #ffffffff;
+    width: 30%;
+    padding: 10px 0;
+    margin: 0 5px;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+form .form_button button:first-child{
+    background-color: #01579B;
+   
+}
+form .form_button button:last-child{
+    background-color: gray
+   
+}
+
+div.sti_video {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #004981;
+
+    padding: 50px;
+
+}
+div.sti_video > div:first-child{
+    width: 50% ;
+
+    margin-right: 10px;
+}
+
+div.sti_video p{
+    font-size: 20px;
+    font-weight: 400;
+
+    max-width: 600px;
+    color: #ffffffff;
+}
+
+div.sti_video button {
+    cursor: pointer;
+    border: 1px solid #ffffffff;
+    border-radius: 20px;
+    background-color: transparent;
+
+    color: #ffffffff;
+    font-size: 16px;
+
+    padding: 7px 15px;
+    margin-top: 30px;
+}
